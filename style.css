@@ -1,0 +1,114 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(68, 68, 68);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 270px;
+  height: 70px;
+  background-color: black;
+  color: rgb(158, 158, 158);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header nav ul li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-flex;
+  padding: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(158, 158, 158);
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+.section img {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.section-one {
+  display: flex;
+  justify-content: center;
+}
+
+.section-two {
+  display: flex;
+  justify-content: center;
+}
+
+.section-three {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+p {
+  max-height: 330px;
+  max-width: 450px;
+  overflow: scroll;
+  line-height: 1.6rem;
+  margin-bottom: 10px;
+}
+
+button {
+  height: 30px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: coral;
+  transition: 350ms;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(68, 68, 68);
+}
